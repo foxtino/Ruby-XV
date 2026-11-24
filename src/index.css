@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Parisienne';
+  src: url('/Parisienne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-script: 'Parisienne', 'Cormorant Garamond', cursive;
+
+  /* Paleta Rojo Rubí & Dorado Sutil Elegante */
+  --color-ruby-canvas: #140407;       /* Terciopelo borgoña profundo */
+  --color-ruby-deep: #1E060B;         /* Vino tinto nocturno */
+  --color-ruby-card: #24090F;         /* Superficie estructural granate */
+  --color-ruby-elevated: #2E0C14;     /* Superficie elevada */
+  --color-ruby-crimson: #9B111E;      /* Rojo rubí real */
+  --color-ruby-glow: #C41E3A;         /* Carmesí brillante */
+  --color-ruby-border: #4A1822;       /* Borde fino vino */
+
+  --color-gold-champagne: #D4AF37;    /* Dorado sutil elegante */
+  --color-gold-light: #E8CE86;        /* Dorado pálido / champaña */
+  --color-gold-muted: #A68635;        /* Dorado envejecido */
+
+  --color-ivory: #FBF7F2;             /* Blanco marfil cálido */
+  --color-blush-soft: #E8D5CE;        /* Rosa pergamino suave */
+  --color-blush-muted: #B89B93;       /* Texto secundario cálido */
+}
+
+:root {
+  --ruby-canvas: #140407;
+  --ruby-deep: #1E060B;
+  --ruby-card: #24090F;
+  --ruby-crimson: #9B111E;
+  --gold-champagne: #D4AF37;
+  --gold-light: #E8CE86;
+  --ivory: #FBF7F2;
+}
+
+body {
+  background-color: #140407;
+  color: #FBF7F2;
+  letter-spacing: 0.01em;
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-script {
+  font-family: 'Parisienne', 'Cormorant Garamond', cursive;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F6E6B4 0%, #D4AF37 50%, #B88E2A 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Subtle luxury sheen for gold buttons */
+@keyframes gold-shimmer {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+  }
+  100% {
+    transform: translateX(220%) skewX(-18deg);
+  }
+}
+
+.animate-gold-shimmer {
+  animation: gold-shimmer 4.5s ease-in-out infinite;
+}
+
+/* Perspective utility for 3D envelope flap */
+.perspective-1000 {
+  perspective: 1200px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-gold-shimmer {
+    animation: none;
+  }
+}

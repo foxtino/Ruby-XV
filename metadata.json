@@ -1,0 +1,8 @@
+{
+  "name": "invitación para XV años de Ruby ",
+  "description": "Hermosa invitación digital de xv años inspirada en WedInvit Framer con animaciones, música, itinerario, galería y confirmación RSVP guardada en Firebase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

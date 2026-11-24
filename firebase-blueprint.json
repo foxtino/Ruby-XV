@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "rsvps": {
+      "title": "RSVPs",
+      "description": "Confirmaciones de asistencia a la boda",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "attendance": {
+          "type": "string"
+        },
+        "guestsCount": {
+          "type": "number"
+        },
+        "dietaryRestrictions": {
+          "type": "string"
+        },
+        "busNeeded": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "attendance",
+        "createdAt"
+      ]
+    },
+    "wishes": {
+      "title": "Wishes",
+      "description": "Mensajes de buenos deseos de los invitados",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "message",
+        "createdAt"
+      ]
+    },
+    "gallery_images": {
+      "title": "Gallery Images",
+      "description": "Imágenes subidas a ImgBB para la galería de la quinceañera",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "displayUrl": {
+          "type": "string"
+        },
+        "thumbUrl": {
+          "type": "string"
+        },
+        "imgbbId": {
+          "type": "string"
+        },
+        "deleteUrl": {
+          "type": "string"
+        },
+        "width": {
+          "type": "number"
+        },
+        "height": {
+          "type": "number"
+        },
+        "size": {
+          "type": "number"
+        },
+        "inGallery": {
+          "type": "boolean"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "createdAt"
+      ]
+    }
+  }
+}
