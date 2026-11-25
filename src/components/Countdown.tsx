@@ -57,7 +57,7 @@ export const Countdown: React.FC<CountdownProps> = ({
 
     const title = encodeURIComponent(`XV Años de ${coupleNames}`);
     const details = encodeURIComponent(
-      `¡Acompáñame a celebrar mis XV Años! Misa a las 5:30 PM en la Parroquia de Nuestra Señora de San Juan de los Lagos y Recepción a partir de las 8:30 PM en Casino Romano. Código de vestimenta: Negro (rojo reservado para la quinceañera).`
+      `¡Acompáñame a celebrar mis XV Años! Misa a las 5:30 PM en la Parroquia de Nuestra Señora de San Juan de los Lagos. Entrada al salón 8:15 PM y cena 9:00 PM en Casino Romano. Código de vestimenta: Negro (rojo reservado para la quinceañera).`
     );
     const location = encodeURIComponent(
       'Parroquia de Nuestra Señora de San Juan de los Lagos / Casino Romano, Monterrey, N.L.'
@@ -79,7 +79,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 SUMMARY:XV Años de ${coupleNames}
-DESCRIPTION:Misa 5:30 PM en Parroquia de Nuestra Señora de San Juan de los Lagos. Recepción 8:30 PM en Casino Romano. Código de vestimenta: Negro.
+DESCRIPTION:Misa 5:30 PM en Parroquia de Nuestra Señora de San Juan de los Lagos. Entrada al salón 8:15 PM y cena 9:00 PM en Casino Romano. Código de vestimenta: Negro.
 LOCATION:Casino Romano, Monterrey, N.L.
 DTSTART:${startISO}
 DTEND:${endISO}

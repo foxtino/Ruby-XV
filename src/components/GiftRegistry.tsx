@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Mail, Gift } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { BankAccount, ExternalRegistry } from '../types/wedding';
 import { RubyEmblem } from './RubyEmblem';
 
@@ -29,10 +29,10 @@ export const GiftRegistry: React.FC<GiftRegistryProps> = ({ gifts }) => {
           className="text-center mb-12"
         >
           <p className="text-xs font-medium tracking-[0.26em] uppercase text-[#D4AF37] mb-2">
-            Sugerencia de Obsequios
+            Detalle Especial
           </p>
           <h2 className="font-display text-3xl sm:text-5xl text-[#FBF7F2] font-semibold tracking-tight [text-wrap:balance]">
-            Lluvia de Sobres y Regalos
+            Lluvia de Sobres
           </h2>
           <div className="flex items-center justify-center gap-3 my-4 max-w-[200px] mx-auto">
             <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#D4AF37]/60" />
@@ -41,7 +41,7 @@ export const GiftRegistry: React.FC<GiftRegistryProps> = ({ gifts }) => {
           </div>
         </motion.div>
 
-        {/* Centered Editorial Gift Card */}
+        {/* Centered Editorial Envelope Card */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -49,17 +49,12 @@ export const GiftRegistry: React.FC<GiftRegistryProps> = ({ gifts }) => {
           transition={{ duration: 0.7 }}
           className="bg-[#24090F] border border-[#D4AF37]/30 p-8 sm:p-12 rounded-2xl text-center max-w-2xl mx-auto space-y-6"
         >
-          <div className="flex items-center justify-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-[#140407] border border-[#D4AF37]/35 flex items-center justify-center text-[#D4AF37]">
-              <Mail className="w-5 h-5" />
-            </div>
-            <div className="w-12 h-12 rounded-xl bg-[#140407] border border-[#D4AF37]/35 flex items-center justify-center text-[#D4AF37]">
-              <Gift className="w-5 h-5" />
-            </div>
+          <div className="w-14 h-14 mx-auto rounded-xl bg-[#140407] border border-[#D4AF37]/35 flex items-center justify-center text-[#D4AF37]">
+            <Mail className="w-6 h-6" />
           </div>
 
           <h3 className="font-display text-2xl sm:text-3xl text-[#FBF7F2] font-semibold">
-            Lluvia de Sobres y Mesa de Regalos
+            Lluvia de Sobres
           </h3>
 
           <p className="font-display italic text-lg sm:text-xl text-[#E8D5CE] leading-relaxed">

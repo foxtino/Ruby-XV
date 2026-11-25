@@ -44,7 +44,7 @@ export const Header: React.FC<HeaderProps> = () => {
             href="#regalos"
             className="hover:text-[#E8CE86] transition-colors whitespace-nowrap shrink-0"
           >
-            Regalos
+            Lluvia de Sobres
           </a>
           <a
             href="#deseos"

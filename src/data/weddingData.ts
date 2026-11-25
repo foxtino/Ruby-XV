@@ -26,7 +26,7 @@ export const weddingData: WeddingConfig = {
   tagline:
     "Hay momentos en la vida que se sueñan con el corazón y se recuerdan para siempre. Hoy celebro mis quince años llena de gratitud, alegría e ilusión, y mi mayor deseo es compartir esta noche mágica contigo.",
   hashtag: "#MisXVRuby",
-  heroImage: "https://i.ibb.co/WNxMH2MX/DSC03311.jpg",
+  heroImage: "https://i.ibb.co/5W6LPVPv/DSC04267.jpg",
   bgMusicUrl: "/Ed Sheeran - Photograph (Official Lyric Video) [KKQl-pIRQMY].mp3",
   songTitle: "Ed Sheeran — Photograph",
   ceremony: {
@@ -44,12 +44,12 @@ export const weddingData: WeddingConfig = {
   reception: {
     title: "Recepción de Gala",
     subtitle: "Casino Romano",
-    time: "8:30 PM",
+    time: "8:15 PM",
     venue: "Casino Romano",
     address: "Casino Romano Eventos",
     city: "Monterrey, N.L.",
     description:
-      "Te esperamos para celebrar una velada inolvidable con banquete de gala, brindis, vals de honor, música y alegría junto a familiares y amigos.",
+      "Te esperamos para celebrar una velada inolvidable con entrada al salón a las 8:15 PM, cena de gala a las 9:00 PM, brindis, vals de honor y fiesta junto a familiares y amigos.",
     googleMapsUrl: "https://maps.google.com/?q=Casino+Romano",
     imageUrl: "https://i.ibb.co/990PK6Ph/Fachada-nocturna-del-Casino-Romano.png"
   },
@@ -61,22 +61,22 @@ export const weddingData: WeddingConfig = {
       iconName: "Church"
     },
     {
-      time: "8:30 PM",
-      title: "Recepción en Casino Romano",
-      description: "Bienvenida de invitados y apertura de puertas en el salón.",
+      time: "8:15 PM",
+      title: "Entrada al Salón",
+      description: "Bienvenida de invitados y apertura de puertas en Casino Romano.",
       iconName: "DoorOpen"
     },
     {
-      time: "9:30 PM",
-      title: "Entrada de Honor & Vals",
-      description: "Presentación oficial de Ruby, vals y emotivo brindis.",
-      iconName: "Sparkles"
-    },
-    {
-      time: "10:15 PM",
+      time: "9:00 PM",
       title: "Cena de Gala",
       description: "Banquete especial para compartir en familia y con amigos.",
       iconName: "Utensils"
+    },
+    {
+      time: "10:00 PM",
+      title: "Entrada de Honor & Vals",
+      description: "Presentación oficial de Ruby, vals y emotivo brindis.",
+      iconName: "Sparkles"
     },
     {
       time: "11:00 PM",
@@ -115,9 +115,9 @@ export const weddingData: WeddingConfig = {
     elements: []
   },
   gallery: [
-    { id: "ruby-1", url: "https://i.ibb.co/WNxMH2MX/DSC03311.jpg", caption: "Ruby — Mis XV Años" },
-    { id: "ruby-2", url: "https://i.ibb.co/Q7J8wGpH/DSC04302.jpg", caption: "Elegancia en rojo rubí" },
-    { id: "ruby-3", url: "https://i.ibb.co/5W6LPVPv/DSC04267.jpg", caption: "Destellos de ilusión" },
+    { id: "ruby-1", url: "https://i.ibb.co/5W6LPVPv/DSC04267.jpg", caption: "Ruby — Mis XV Años" },
+    { id: "ruby-2", url: "https://i.ibb.co/WNxMH2MX/DSC03311.jpg", caption: "Destellos de ilusión" },
+    { id: "ruby-3", url: "https://i.ibb.co/Q7J8wGpH/DSC04302.jpg", caption: "Elegancia en rojo rubí" },
     { id: "ruby-4", url: "https://i.ibb.co/rGqK7mw9/DSC04263.jpg", caption: "Un sueño hecho realidad" },
     { id: "ruby-5", url: "https://i.ibb.co/GfcQ8KxN/DSC04259.jpg", caption: "Sonrisa que ilumina" },
     { id: "ruby-6", url: "https://i.ibb.co/tT9R6PGM/DSC04258.jpg", caption: "Gracia y serenidad" },
@@ -157,7 +157,6 @@ export const weddingData: WeddingConfig = {
     { id: "ruby-40", url: "https://i.ibb.co/yFqQjjZd/DSC03368.jpg", caption: "Luz de diciembre" },
     { id: "ruby-41", url: "https://i.ibb.co/23VCHZGs/DSC03366.jpg", caption: "Pura elegancia" },
     { id: "ruby-42", url: "https://i.ibb.co/XxGsJbZv/DSC03350.jpg", caption: "Celebrando la vida" },
-    { id: "ruby-43", url: "https://i.ibb.co/2wfQ2JH/DSC03349.jpg", caption: "Emoción y gratitud" },
     { id: "ruby-44", url: "https://i.ibb.co/k2GG9fF2/DSC03340.jpg", caption: "Recuerdo inolvidable" },
     { id: "ruby-45", url: "https://i.ibb.co/CGCwYFW/DSC03329.jpg", caption: "Un nuevo comienzo" },
     { id: "ruby-46", url: "https://i.ibb.co/HWB97ZD/DSC03299.jpg", caption: "Ruby — 12 de Diciembre de 2026" }
@@ -171,16 +170,16 @@ export const weddingData: WeddingConfig = {
   },
   gifts: {
     message:
-      "Tu presencia en este día tan importante es el mejor regalo que puedo recibir. Si además deseas tener un detalle conmigo, agradeceremos mucho tu obsequio o tu participación en nuestra Lluvia de Sobres.",
+      "Tu presencia en este día tan importante es el mejor regalo que puedo recibir. Si además deseas tener un detalle conmigo, agradeceremos mucho tu participación en nuestra Lluvia de Sobres.",
     envelopeNote:
-      "Contaremos con una mesa de regalos y un cofre especial en la recepción para Lluvia de Sobres."
+      "Contaremos con un cofre especial en la recepción para depositar tu sobre con tus buenos deseos."
   },
   notes: {
     adultsOnly: false,
     transportAvailable: false,
     recommendations: [
       "La Ceremonia Religiosa dará inicio puntualmente a las 5:30 PM en la Parroquia de Nuestra Señora de San Juan de los Lagos.",
-      "La Recepción de Gala comenzará a partir de las 8:30 PM en Casino Romano.",
+      "La entrada al salón en Casino Romano será a partir de las 8:15 PM y la cena dará inicio a las 9:00 PM.",
       "Te agradecemos confirmar tu asistencia con anticipación para reservar tus lugares con mucho cariño."
     ]
   }

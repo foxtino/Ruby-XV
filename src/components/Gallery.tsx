@@ -55,12 +55,13 @@ export const Gallery: React.FC<GalleryProps> = ({ gallery }) => {
     return () => unsubscribe();
   }, []);
 
-  // Ruby's curated 46 photos come first (starting with DSC03311), followed by any newly uploaded ImgBB photos
+  // Ruby's curated photos come first (starting with DSC04267), followed by any newly uploaded ImgBB photos
   const combinedGallery: GalleryItem[] = React.useMemo(() => {
     const seen = new Set<string>();
     const all = [...gallery, ...imgbbItems];
     return all.filter((item) => {
       if (!item.url || seen.has(item.url)) return false;
+      if (item.url.toLowerCase().includes('dsc03349')) return false;
       seen.add(item.url);
       return true;
     });
