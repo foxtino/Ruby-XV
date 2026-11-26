@@ -44,12 +44,12 @@ export const weddingData: WeddingConfig = {
   reception: {
     title: "Recepción de Gala",
     subtitle: "Casino Romano",
-    time: "8:15 PM",
+    time: "7:30 PM",
     venue: "Casino Romano",
     address: "Casino Romano Eventos",
     city: "Monterrey, N.L.",
     description:
-      "Te esperamos para celebrar una velada inolvidable con entrada al salón a las 8:15 PM, cena de gala a las 9:00 PM, brindis, vals de honor y fiesta junto a familiares y amigos.",
+      "Te esperamos para celebrar una velada inolvidable con entrada al salón a las 7:30 PM, entrada de honor y vals a las 8:15 PM, cena a las 9:00 PM y gran fiesta desde las 10:00 PM.",
     googleMapsUrl: "https://maps.google.com/?q=Casino+Romano",
     imageUrl: "https://i.ibb.co/990PK6Ph/Fachada-nocturna-del-Casino-Romano.png"
   },
@@ -61,26 +61,26 @@ export const weddingData: WeddingConfig = {
       iconName: "Church"
     },
     {
-      time: "8:15 PM",
+      time: "7:30 PM",
       title: "Entrada al Salón",
       description: "Bienvenida de invitados y apertura de puertas en Casino Romano.",
       iconName: "DoorOpen"
     },
     {
-      time: "9:00 PM",
-      title: "Cena de Gala",
-      description: "Banquete especial para compartir en familia y con amigos.",
-      iconName: "Utensils"
-    },
-    {
-      time: "10:00 PM",
+      time: "8:15 PM",
       title: "Entrada de Honor & Vals",
       description: "Presentación oficial de Ruby, vals y emotivo brindis.",
       iconName: "Sparkles"
     },
     {
-      time: "11:00 PM",
-      title: "Gran Fiesta & Baile",
+      time: "9:00 PM",
+      title: "Cena",
+      description: "Banquete especial para compartir en familia y con amigos.",
+      iconName: "Utensils"
+    },
+    {
+      time: "10:00 PM",
+      title: "Gran Fiesta",
       description: "Música, pista abierta y celebración toda la noche.",
       iconName: "Music"
     }
@@ -179,7 +179,7 @@ export const weddingData: WeddingConfig = {
     transportAvailable: false,
     recommendations: [
       "La Ceremonia Religiosa dará inicio puntualmente a las 5:30 PM en la Parroquia de Nuestra Señora de San Juan de los Lagos.",
-      "La entrada al salón en Casino Romano será a partir de las 8:15 PM y la cena dará inicio a las 9:00 PM.",
+      "La entrada al salón en Casino Romano será a las 7:30 PM, la entrada de honor y vals a las 8:15 PM, la cena a las 9:00 PM y la gran fiesta a partir de las 10:00 PM.",
       "Te agradecemos confirmar tu asistencia con anticipación para reservar tus lugares con mucho cariño."
     ]
   }
